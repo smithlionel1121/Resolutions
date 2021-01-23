@@ -37,6 +37,7 @@ const App = () => {
 
   return (
     <div>
+      <h1>Resolutions</h1>
       {data.user._id ? (
         <button
           onClick={() => {
